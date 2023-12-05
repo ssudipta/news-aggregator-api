@@ -12,19 +12,15 @@ app.use(routes);
 const PORT = 3000;
 
 
-function logger(req,res,next){
-    console.log("Request received: ",req);
-    console.log("Response sent: ",res);
-    next();
-}
+// function logger(req,res,next){
+//     console.log("Request received: ",req);
+//     console.log("Response sent: ",res);
+//     next();
+// }
 
-app.use(logger);
+// app.use(logger);
 
 routes.use('/news-aggregator/v1', newsAPIController)
-
-app.get('/',(req,res)=>{
-    return res.status(200).send("Hello from root")
-})
 
 app.listen(PORT, (err)=>{
     if(!err){

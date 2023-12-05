@@ -1,10 +1,1 @@
-[
-    {
-        "fullName": "sudipta saha",
-        "email" : "sudipta@gmail.com",
-        "role": "admin",
-        "password": "abc",
-        "created": "",
-        "preference": ""
-    }
-]
+[{"fullName":"sudipta saha","email":"sudipta@gmail.com","role":"admin","password":"$2b$08$qAgd4ZuZeL.YPUrwjmMOLO.BiZdhIfa4NA.i3gucOZaYVGjW5dgbW","createdOn":"2023-12-05T19:22:17.484Z","preference":"sport"}]
