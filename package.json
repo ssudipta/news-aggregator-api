@@ -1,0 +1,25 @@
+{
+  "name": "news-aggregator-api",
+  "version": "1.0.0",
+  "description": "News Aggregator APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ssudipta/news-aggregator-api.git"
+  },
+  "keywords": [
+    "newsaggregator"
+  ],
+  "author": "Sudipta Saha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssudipta/news-aggregator-api/issues"
+  },
+  "homepage": "https://github.com/ssudipta/news-aggregator-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
